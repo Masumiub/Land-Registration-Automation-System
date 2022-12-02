@@ -94,7 +94,11 @@
                     <div class="card-body">
                         <h5 class="card-title">Online Hearing Request</h5>
                         <p class="card-text">Land Mark ID: 09942542, Md Masum Musfique</p>
-                        <a href="#" class="btn btn-success">Confirm Online Hearing</a>
+                        <!-- <a href="#" class="btn btn-success">Confirm Online Hearing</a> -->
+
+                        <button type="submit" class="btn btn-success " data-bs-toggle="modal"
+                        data-bs-target="#hearingModal">Confirm Online Hearing</button>
+
                     </div>
                 </div>
 
@@ -105,7 +109,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Online Hearing Request</h5>
                         <p class="card-text">Land Mark ID: 09943844, Md Nakibul Islam</p>
-                        <a href="#" class="btn btn-success">Confirm Online Hearing</a>
+                        <button type="submit" class="btn btn-success " data-bs-toggle="modal"
+                        data-bs-target="#hearingModal">Confirm Online Hearing</button>
                     </div>
                 </div>
 
@@ -116,7 +121,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Online Hearing Request</h5>
                         <p class="card-text">Land Mark ID: 09943844, Md Nakibul Islam</p>
-                        <a href="#" class="btn btn-success">Confirm Online Hearing</a>
+                        <button type="submit" class="btn btn-success " data-bs-toggle="modal"
+                        data-bs-target="#hearingModal">Confirm Online Hearing</button>
                     </div>
                 </div>
 
@@ -222,6 +228,67 @@
             </div>
         </div>
     </div>
+
+
+        <!-- hearing Modal -->
+        <div class="modal fade" id="hearingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-success">
+                        <h5 class="modal-title" id="exampleModalLabel" style="color: white">Online Hearing
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+    
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Your Email</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                    required>
+                            </div>
+    
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Your Phone</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                    required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Hearing Date</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                    required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Hearing Time</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                    required>
+                            </div>
+    
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Your Message</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                    required>
+                            </div>
+    
+    
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success" data-bs-dismiss="modal"
+                            onclick="showhearingConfirmation()">Confirm Hearing</button>
+                    </div>
+    
+                    <script>
+                        function showhearingConfirmation() {
+                            alert("Success! Online Hearing Information is sent to citizen.");
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
 
 
 
