@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Land Registration</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #0e544d; padding: 25px;">
+
+        <div class="container">
+
+
+            <a class="navbar-brand" href="index.html"
+                style="font-family: Poppins, Arial; color: white; font-weight: 400;"> <img src="img/Logo.png" alt="LARS"
+                    style="width: 60px; margin-right: 10px; "> Land Registration Automation
+                System</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation" style="color: white">
+                <span class="navbar-toggler-icon" style="color: white"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"></a>
+                    </li>
+                </ul>
+
+                <form class="d-flex">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="registrationform.html" style="color: white">Land Registration</a>
+                        </li>
+                        <li class="nav-item">
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="taxpaymentform.html" style="color: white">Tax Payment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white" href="createadvertisement.html">Sale Lands</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" style="color: white">Buy Lands</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white" href="onlinehearing.html">Online Hearing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white" href="index.html">FAQs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white" href="login.php">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white" href="signup.php">Signup</a>
+                        </li>
+                    </ul>
+
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div style="background-color: #0e544d;">
+        <div class="container">
+            <div class="row align-items-center text-white">
+                <div class="col-lg-6 col-md-12 col-12">
+
+                    <h1 style="font-family: Poppins, Arial ; font-size: 62px; font-weight: 800;">AUTOMATED<br> Land
+                        Registration</h1>
+
+                    <h2 style="font-family: Poppins, Arial; font-size: 42px;">Make Your Life Easiler!</h2>
+                    <hr>
+
+                    <h2 style="font-family: Poppins, Arial; font-size: 32px;">Easy. Safe. Quick.</h2>
+                    <button type="submit" class="btn btn-success ">View Demo</button>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <img src="img/landreg.png" alt="header" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="text-center">
+        <h1 class="display-4"
+            style="font-family: 'Poppins', 'Arial'; font-weight: 800; margin-top: 90px; margin-bottom: 50px;">
+            Registration Form</h1>
+    </div>
+
+    <div class="container" style="width: 50%">
+        <form>
+            <div style="background-color:rgb(230, 230, 230); border-radius: 3px; margin-bottom: 20px;">
+                <p style="margin: 5px"> <b>Land Related Information</b> </p>
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Land Mark ID</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Record of Rights ID</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Mutation ID</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Non Encumbrance Certificate ID</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <div
+                style="background-color:rgb(230, 230, 230); border-radius: 3px; margin-bottom: 20px; margin-top: 20px;">
+                <p style="margin: 5px"> <b>Tax Information</b> </p>
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Tax Amount</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Tax Payment Year</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <div
+                style="background-color:rgb(230, 230, 230); border-radius: 3px; margin-bottom: 20px; margin-top: 20px;">
+                <p style="margin: 5px"> <b>Land Owner Information</b> </p>
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Land Owner Name</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <div class="mb-3">
+                <button type="submit" class="btn btn-success">Add Owner</button>
+            </div>
+
+            <div class="mb-3 input-group">
+                <span class="input-group-text">Owner Name</span>
+                <input type="text" aria-label="First name" class="form-control">
+                <input type="text" aria-label="Last name" class="form-control" placeholder="Share">
+            </div>
+
+            <div class="mb-3 input-group">
+                <span class="input-group-text">Owner Name</span>
+                <input type="text" aria-label="First name" class="form-control">
+                <input type="text" aria-label="Last name" class="form-control" placeholder="Share">
+            </div>
+
+            <div class="form-check form-switch mb-3">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onclick="enableWarisan()">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Add Warisan Info In case of the Land Owner
+                    is dead.</label>
+            </div>
+
+            <script>
+                function enableWarisan() {
+                    document.getElementById('warisan').style.opacity = 1;
+                }
+            </script>
+
+            <div class="warisan" id="warisan" style="opacity:0.5 ;">
+                <div class="input-group mb-3">
+                    <label class="input-group-text" for="inputGroupFile01">Add Death Certificate</label>
+                    <input type="file" class="form-control" id="inputGroupFile01">
+                </div>
+
+                <div class="input-group mb-3">
+                    <label class="input-group-text" for="inputGroupFile01">Add Warisan Certificate</label>
+                    <input type="file" class="form-control" id="inputGroupFile01">
+                </div>
+
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-success">Add Warisan</button>
+                </div>
+                <div class="mb-3 input-group">
+                    <span class="input-group-text">Warisan Name</span>
+                    <input type="text" aria-label="First name" class="form-control">
+                    <input type="text" aria-label="Last name" class="form-control" placeholder="Relation">
+                </div>
+                <div class="mb-3 input-group">
+                    <span class="input-group-text">Warisan Name</span>
+                    <input type="text" aria-label="First name" class="form-control">
+                    <input type="text" aria-label="Last name" class="form-control" placeholder="Relation">
+                </div>
+            </div>
+
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Submit
+            </button>
+
+            <button type="button" class="btn btn-secondary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                Save Draft
+            </button>
+
+            <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                Procced Registration
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header" style="background-color:rgb(228, 228, 228) ;">
+                            <h5 class="modal-title" id="exampleModalLabel">Confirm Submission</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Are you sure to submit this form?
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal2">OK</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal 2-->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header" style="background-color:rgb(249, 254, 158)">
+                            <h5 class="modal-title" id="exampleModalLabel"> Alert! Incorrect Information Format</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Oops! Your Mutation ID is in Incorrect Format. <br>
+                            Correct Format: 099M**************
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal 3-->
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header" style="background-color:rgb(23, 110, 52)">
+                            <h5 class="modal-title" id="exampleModalLabel" style="color: white;"> Success! Your
+                                Registration Info is Submitted!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                                style="color: white;"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Done, great! We recevied Your Registration Information and will reviewed by Land Deed
+                                Checker & Sub Register Officer with 24 hours. Please follow the next procedure.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Save Draft Modal-->
+            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header" style="background-color:rgb(214, 214, 214)">
+                            <h5 class="modal-title" id="exampleModalLabel"> Saved as Draft!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Your Input Information is Saved as Draft.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+<!-- ************************************* -->
+<!-- --------------Footer----------------- -->
+<!-- ************************************* -->
+<footer class="py-5" style="background-color: #0e544d; margin-top: 120px;">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; LARS - Md Masum Musfique</p>
+    </div>
+</footer>
+<!-- ************************************* -->
+<!-- --------------Footer----------------- -->
+<!-- ************************************* -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>

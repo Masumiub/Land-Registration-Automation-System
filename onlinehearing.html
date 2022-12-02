@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Online Hearing</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #0e544d; padding: 25px;">
+
+        <div class="container">
+
+
+            <a class="navbar-brand" href="index.html"
+                style="font-family: Poppins, Arial; color: white; font-weight: 400;"> <img src="img/Logo.png" alt="LARS"
+                    style="width: 60px; margin-right: 10px; "> Land Registration Automation
+                System</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation" style="color: white">
+                <span class="navbar-toggler-icon" style="color: white"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"></a>
+                    </li>
+                </ul>
+
+                <form class="d-flex">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="registrationform.html" style="color: white">Land Registration</a>
+                        </li>
+                        <li class="nav-item">
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="taxpaymentform.html" style="color: white">Tax Payment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white" href="createadvertisement.html">Sale Lands</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" style="color: white">Buy Lands</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white" href="onlinehearing.html">Online Hearing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white" href="index.html">FAQs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white" href="login.php">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white" href="signup.php">Signup</a>
+                        </li>
+                    </ul>
+
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div style="background-color: #0e544d;">
+        <div class="container">
+            <div class="row align-items-center text-white">
+                <div class="col-lg-6 col-md-12 col-12">
+
+                    <h1 style="font-family: Poppins, Arial ; font-size: 62px; font-weight: 800;">Online Hearing</h1>
+
+                    <h2 style="font-family: Poppins, Arial; font-size: 42px;">Request for your Land Digitally.</h2>
+                    <hr>
+
+                    <h2 style="font-family: Poppins, Arial; font-size: 32px;">Easy. Safe. Quick.</h2>
+                    <button type="submit" class="btn btn-success ">View Demo</button>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <img src="img/hearing.png" alt="header" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="text-center">
+        <h1 class="display-4"
+            style="font-family: 'Poppins', 'Arial'; font-weight: 800; margin-top: 90px; margin-bottom: 50px;">Online
+            Hearing Form</h1>
+    </div>
+
+    <div class="container" style="width: 50%">
+        <form>
+
+            <div style="background-color:rgb(230, 230, 230); border-radius: 3px; margin-bottom: 20px;">
+                <p style="margin: 5px"> <b>Land Related Information</b> </p>
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Land Mark ID</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Record of Rights ID</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Mutation ID</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Non Encumbrance Certificate ID</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <div style="background-color:rgb(230, 230, 230); border-radius: 3px; margin-bottom: 20px;">
+                <p style="margin: 5px"> <b>Tax Information</b> </p>
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Tax Amount</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Tax Payment Year</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <div
+                style="background-color:rgb(230, 230, 230); border-radius: 3px; margin-bottom: 20px; margin-top: 20px;">
+                <p style="margin: 5px"> <b>Land Owner Information</b> </p>
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Previous Land Owner Name</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">New Land Owner Name</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <div class="mb-3">
+                <button type="submit" class="btn btn-success">Add Owner</button>
+            </div>
+
+            <div class="mb-3 input-group">
+                <span class="input-group-text">Owner Name</span>
+                <input type="text" aria-label="First name" class="form-control">
+                <input type="text" aria-label="Last name" class="form-control" placeholder="Share">
+            </div>
+
+            <div class="mb-3 input-group">
+                <span class="input-group-text">Owner Name</span>
+                <input type="text" aria-label="First name" class="form-control">
+                <input type="text" aria-label="Last name" class="form-control" placeholder="Share">
+            </div>
+
+            <div class="form-check form-switch mb-3">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onclick="enableWarisan()">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Add Warisan Info In case of the Land Owner
+                    is dead.</label>
+            </div>
+
+            <script>
+                function enableWarisan() {
+                    document.getElementById('warisan').style.opacity = 1;
+                }
+            </script>
+
+            <div id="warisan" style="opacity: 0.5; ">
+                <div class="input-group mb-3">
+                    <label class="input-group-text" for="inputGroupFile01">Add Death Certificate</label>
+                    <input type="file" class="form-control" id="inputGroupFile01">
+                </div>
+
+                <div class="input-group mb-3">
+                    <label class="input-group-text" for="inputGroupFile01">Add Warisan Certificate</label>
+                    <input type="file" class="form-control" id="inputGroupFile01">
+                </div>
+
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-success">Add Warisan</button>
+                </div>
+                <div class="mb-3 input-group">
+                    <span class="input-group-text">Warisan Name</span>
+                    <input type="text" aria-label="First name" class="form-control">
+                    <input type="text" aria-label="Last name" class="form-control" placeholder="Relation">
+                </div>
+                <div class="mb-3 input-group">
+                    <span class="input-group-text">Warisan Name</span>
+                    <input type="text" aria-label="First name" class="form-control">
+                    <input type="text" aria-label="Last name" class="form-control" placeholder="Relation">
+                </div>
+            </div>
+
+            <label for="exampleInputPassword1" class="form-label">Choose Hearing Payment Method:</label>
+
+            <div class="mb-3" style="display:flex ;">
+                <div class="form-check ">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                    <label class="form-check-label" for="flexRadioDefault1" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal1">
+                        Bkash
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                        style="margin-left:3px;">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        &nbsp; Nogod
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                        style="margin-left:3px;">
+                    <label class="form-check-label" for="flexRadioDefault3">
+                        &nbsp; Roket
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                        style="margin-left:3px;">
+                    <label class="form-check-label" for="flexRadioDefault4">
+                        &nbsp; Binimoy
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                        style="margin-left:3px;">
+                    <label class="form-check-label" for="flexRadioDefault5">
+                        &nbsp; DBBL
+                    </label>
+                </div>
+            </div>
+
+            <button type="button" class="btn btn-success btn-lg"> <a href="userDashboard.html" style="link-style: none; color: white"> Request Online Hearing</a> </button>
+
+            <!-- Modal 1-->
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header" style="background-color:rgb(255, 62, 123)">
+                            <h5 class="modal-title" id="exampleModalLabel" style="color: white">Hearing Fee Payment Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Your Account No.</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Your Transaction ID</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Pin Code</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" required>
+                                </div>
+
+
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                                onclick="showConfirmation()">Pay</button>
+                        </div>
+
+                        <script>
+                            function showConfirmation() {
+                                alert("Success! Your Hearing Fee Payment is done.");
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+<!-- ************************************* -->
+<!-- --------------Footer----------------- -->
+<!-- ************************************* -->
+<footer class="py-5" style="background-color: #0e544d; margin-top: 120px;">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; LARS - Md Masum Musfique</p>
+    </div>
+</footer>
+<!-- ************************************* -->
+<!-- --------------Footer----------------- -->
+<!-- ************************************* -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>

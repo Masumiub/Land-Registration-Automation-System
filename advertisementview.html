@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Detailed Advertisement</title>
+
+
+    <style>
+        .map-container {
+            overflow: hidden;
+            padding-bottom: 56.25%;
+            position: relative;
+            height: 0;
+        }
+
+        .map-container iframe {
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #0e544d; padding: 25px;">
+
+        <div class="container">
+
+
+            <a class="navbar-brand" href="index.html"
+                style="font-family: Poppins, Arial; color: white; font-weight: 400;"> <img src="img/Logo.png" alt="LARS"
+                    style="width: 60px; margin-right: 10px; "> Land Registration Automation
+                System</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation" style="color: white">
+                <span class="navbar-toggler-icon" style="color: white"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"></a>
+                    </li>
+                </ul>
+
+                <form class="d-flex">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="registrationform.html" style="color: white">Land Registration</a>
+                        </li>
+                        <li class="nav-item">
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="taxpaymentform.html" style="color: white">Tax Payment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white" href="createadvertisement.html">Sale Lands</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" style="color: white">Buy Lands</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white" href="onlinehearing.html">Online Hearing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white" href="index.html">FAQs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white" href="login.php">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white" href="signup.php">Signup</a>
+                        </li>
+                    </ul>
+
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div style="background-color: #0e544d;">
+        <div class="container">
+            <div class="row align-items-center text-white">
+                <div class="col-lg-6 col-md-12 col-12">
+
+                    <h1 style="font-family: Poppins, Arial ; font-size: 62px; font-weight: 800;">Purchase Land
+                    </h1>
+                    <h2 style="font-family: Poppins, Arial; font-size: 42px;">At Reliable Price
+                    </h2>
+                    <hr>
+                    <h2 style="font-family: Poppins, Arial; font-size: 32px;">Find your Dreamed Land Easily!</h2>
+                    <button type="submit" class="btn btn-success ">View Demo</button>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <img src="img/group trees piece land isolated on transparent background PNG - 2500x2500.png"
+                        alt="header" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="text-center">
+        <h1 class="display-4"
+            style="font-family: 'Poppins', 'Arial'; font-weight: 800; margin-top: 90px; margin-bottom: 50px;">
+            Advertisement Form</h1>
+    </div> -->
+
+    <div class="container">
+        <div class="row" style="margin-top:90px ;">
+            <div class="col-lg-9 col-md-9 col-12">
+                <h1>Advertisement Detailed View | Dhaka | 25% Discount</h1>
+
+                <!-- <img src="img/group trees piece land isolated on transparent background PNG - 2500x2500.png" alt=""
+                    class="img-fluid"> -->
+
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/group trees piece land isolated on transparent background PNG - 2500x2500.png"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/island with forest floating air isolated on transparent background PNG - 2500x2500.png"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident quos dolorum veritatis voluptate
+                    illo praesentium quibusdam corrupti optio error, debitis velit quod nihil nemo ipsum, minima
+                    voluptatum vero commodi exercitationem.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, cupiditate porro blanditiis
+                    similique quidem consectetur asperiores atque rem quasi iusto sunt a exercitationem voluptate
+                    tempora quis magnam saepe obcaecati nisi qui dolorem aspernatur alias modi. Illo dolorem ea
+                    consectetur, eveniet accusantium iusto deserunt ex magni non, vero voluptatem id ratione iste alias
+                    laborum fuga itaque veniam nihil optio. Repudiandae, sequi.</p>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident quos dolorum veritatis voluptate
+                    illo praesentium quibusdam corrupti optio error, debitis velit quod nihil nemo ipsum, minima
+                    voluptatum vero commodi exercitationem.</p>
+                <ul>
+                    <li>Provident quos dolorum veritatis voluptate</li>
+                    <li>Debitis velit quod nihil nemo ipsum</li>
+                    <li>Illo praesentium quibusdam corrupti optio error</li>
+                </ul>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident quos dolorum veritatis voluptate
+                    illo praesentium quibusdam corrupti optio error, debitis velit quod nihil nemo ipsum, minima
+                    voluptatum vero commodi exercitationem.</p>
+
+
+            </div>
+            <div class="col-lg-3 col-md-3 col-12">
+                <label for="">Owner Name:</label>
+                <h2>Masum Musfique</h2>
+                <p>Land Type: Agriculture</p>
+                <h1>Price: 15,00,000 </h1>
+                <p>(In Taka)</p>
+                <button type="submit" class="btn btn-info d-block  w-100 mb-3" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal" style="color: white;">View in Map</button>
+                <button type="submit" class="btn btn-primary  d-block w-100 mb-3" data-bs-toggle="modal"
+                data-bs-target="#contactModal">Contact Seller</button>
+                <button type="submit" class="btn btn-success  d-block w-100 mb-3" data-bs-toggle="modal"
+                data-bs-target="#paymentModal">Buy Online</button>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Map View of Land</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <!--Google map-->
+                            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                                <iframe
+                                    src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                    frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div>
+
+                            <!--Google Maps-->
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+                <!-- contact Modal -->
+                <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header bg-primary" >
+                                <h5 class="modal-title" id="exampleModalLabel" style="color: white">Contact Land Owner
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Your Name</label>
+                                        <input type="text" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" required>
+                                    </div>
+        
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Your Email</label>
+                                        <input type="text" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" required>
+                                    </div>
+        
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Your Phone</label>
+                                        <input type="text" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" required>
+                                    </div>
+    
+        
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Your Message</label>
+                                        <input type="text" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" required>
+                                    </div>
+        
+        
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                                    onclick="showMessageConfirmation()">Send</button>
+                            </div>
+        
+                            <script>
+                                function showMessageConfirmation() {
+                                    alert("Success! Your Message is sent.");
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+
+
+        <!-- payment Modal -->
+        <div class="modal fade" id="paymentModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" style="background-color:rgb(255, 62, 123)">
+                        <h5 class="modal-title" id="exampleModalLabel" style="color: white">Payment Details
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Bank Name</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Bank Branch</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Your Account No.</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Your Transaction ID</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Pin Code</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" required>
+                            </div>
+
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                            onclick="showConfirmation()">Pay</button>
+                    </div>
+
+                    <script>
+                        function showConfirmation() {
+                            alert("Success! Your Payment is done.");
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+
+        <div class="album py-5 ">
+            <div class="container">
+
+                <div class="text-center">
+                    <h4 class="display-4"
+                        style="font-family: 'Poppins', 'Arial'; font-weight: 400; margin-top: 90px; margin-bottom: 50px;">
+                        You May Like Also</h4>
+                </div>
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="img/thumb.png" alt="thumb" class="img-fluid">
+
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-primary"> <a href="advertisementview.html" style="color: white; list-style: none;">Buy</a></button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="img/thumb.png" alt="thumb" class="img-fluid">
+
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-primary"> <a href="advertisementview.html" style="color: white; list-style: none;">Buy</a> </button>
+                                    </div>
+                                    <small class="text-muted">19 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="img/thumb.png" alt="thumb" class="img-fluid">
+
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-primary"> <a href="advertisementview.html" style="color: white; list-style: none;">Buy</a></button>
+                                    </div>
+                                    <small class="text-muted">29 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<!-- ************************************* -->
+<!-- --------------Footer----------------- -->
+<!-- ************************************* -->
+<footer class="py-5" style="background-color: #0e544d; margin-top: 120px;">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; LARS - Md Masum Musfique</p>
+    </div>
+</footer>
+<!-- ************************************* -->
+<!-- --------------Footer----------------- -->
+<!-- ************************************* -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>
