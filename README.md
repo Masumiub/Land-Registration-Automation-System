@@ -1,8 +1,13 @@
 # Land-Registration-Automation-System
 
 Md Masum Musfique
-ID: 1920582
-CSE307, Section-2
+- ID: 1920582
+- CSE307, Section-2
+
+# :medal_military: Highest Marks Carrying Project
+- 25/25
+# :medal_sports: Highest Marks Carrying Project Report
+- 100/100
 
 # Introduction
 This technology is designed to automate land registration. Through this mechanism, Bangladeshi citizens would be able to sell the lands online. The seller of the lands can help interested buyers identify their lands and their ideal pricing. They can use this mechanism to buy lands and make payments online. Sub registrar officers will inspect land registration, land purchases and sales, and tax payments. Sub registrar officers can inform the landowner of any errors in land registration, land buying and selling, or tax payment.
