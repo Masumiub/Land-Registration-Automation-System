@@ -4,9 +4,9 @@ Md Masum Musfique
 - ID: 1920582
 - CSE307, Section-2
 
-# :medal_military: Highest Marks Carrying Project
+# :medal_military: Highest Mark Carrying Project
 - 25/25
-# :medal_sports: Highest Marks Carrying Project Report
+# :medal_sports: Highest Mark Carrying Project Report
 - 100/100
 
 # Introduction
